@@ -1,6 +1,4 @@
 import telebot
-"""dasdasdasdad
-"""
 markup_menu = telebot.types.InlineKeyboardMarkup(row_width=3)
 markup_menu.add(*[
     telebot.types.InlineKeyboardButton(text='сегодня', callback_data='0'),
